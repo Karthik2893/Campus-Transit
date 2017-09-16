@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Campus-Transit</string>
+    <string name="title_activity_building">Building</string>
+    <string name="buildingsButtonName">Buildings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
