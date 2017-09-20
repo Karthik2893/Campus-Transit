@@ -45,13 +45,14 @@ public class BuildingAdapter extends BaseAdapter {
         View rowView = bInflater.inflate(R.layout.building_item, parent, false);
         TextView buildingNameView = (TextView) rowView.findViewById(R.id.buildingItemName);
         TextView buildingNumberView = (TextView)rowView.findViewById(R.id.buildingItemNumber);
-        Building building = (Building)getItem(position);
+        final Building building = (Building)getItem(position);
         buildingNameView.setText(building.name);
         buildingNumberView.setText(building.id);
         rowView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(bContext,MapActivity.class);
+                intent.putExtra(MapActivity.SELECTED_BUILDING,building);
                 v.getContext().startActivity(intent);
             }
         });

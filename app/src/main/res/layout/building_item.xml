@@ -7,15 +7,17 @@
         android:layout_height="0dp"
         android:layout_centerInParent="true"/>
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/buildingItemName"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/buildingItemNumber"
+        android:layout_marginRight="60dp"
         />
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/buildingItemNumber"
-        android:layout_alignRight="@id/buildingItemName"
+        android:layout_height="30dp"
+        android:id="@+id/buildingItemName"
+        android:layout_toRightOf="@id/buildingItemNumber"
         />
+
 
 </RelativeLayout>
