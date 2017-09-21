@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/walking_mode"
+        android:title="@string/walking"
+        android:icon="@drawable/walking"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/bus_mode"
+        android:title="@string/bus"
+        android:icon="@drawable/bus"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/car_mode"
+        android:title="@string/car"
+        android:icon="@drawable/car"
+        app:showAsAction="always"/>
+</menu>

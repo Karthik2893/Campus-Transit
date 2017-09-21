@@ -1,0 +1,80 @@
+[
+  {
+    "buildingID": 1,
+    "Name": "Education",
+    "Room": "203",
+    "start": {
+      "time": "1:00pm",
+      "day": "Wed"
+    },
+    "end": {
+      "time": "2:00pm",
+      "day": "Wed"
+    }
+  },
+  {
+    "buildingID": 25,
+    "Name": "Accounting",
+    "Room": "203",
+    "start": {
+      "time": "11:00am",
+      "day": "Wed"
+    },
+    "end": {
+      "time": "1:00pm",
+      "day": "Wed"
+    }
+  },
+  {
+    "buildingID": 46,
+    "Name": "Chemistry",
+    "Room": "204",
+    "start": {
+      "time": "1:00pm",
+      "day": "Thr"
+    },
+    "end": {
+      "time": "2:00pm",
+      "day": "Thr"
+    }
+  },
+  {
+    "buildingID": 236,
+    "Name": "Statistics",
+    "Room": "204",
+    "start": {
+      "time": "9:00am",
+      "day": "Thr"
+    },
+    "end": {
+      "time": "10:00am",
+      "day": "Thr"
+    }
+  },
+  {
+    "buildingID": 83,
+    "Name": "Fine Arts",
+    "Room": "203",
+    "start": {
+      "time": "11:00am",
+      "day": "Mon"
+    },
+    "end": {
+      "time": "1:00pm",
+      "day": "Mon"
+    }
+  },
+  {
+    "buildingID": 75,
+    "Name": "Ecology",
+    "Room": "203",
+    "start": {
+      "time": "11:00am",
+      "day": "Mon"
+    },
+    "end": {
+      "time": "1:00pm",
+      "day": "Mon"
+    }
+  }
+]

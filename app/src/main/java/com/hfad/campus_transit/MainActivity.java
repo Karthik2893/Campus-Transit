@@ -46,4 +46,10 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
+
+    public void toSchedule(View v) {
+        Intent intent =  new Intent(this,SelectDay.class);
+        startActivity(intent);
+
+    }
 }

@@ -111,6 +111,7 @@ public class Building implements Parcelable{
         this.zip = in.readString();
         this.country = in.readString();
     }
+
     public static ArrayList<Building> getBuildingsFromFile(String filename, Context context) {
         final ArrayList<Building> buildingsList = new ArrayList<>();
         try {
